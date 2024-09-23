@@ -1,0 +1,5 @@
+.hugo_build.lock
+.git/
+.github/
+content/.obsidian/
+public/
