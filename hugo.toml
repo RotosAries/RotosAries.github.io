@@ -23,15 +23,15 @@ summaryLength = 50
 # 中日韩语言请改为 true
 hasCJKLanguage = true
 
-[author]
-    name = "Rotos"
-    description = "随遇而安"
-    # profile photo of author in author card
-    # 作者头像
-    image = "/images/author.jpg"
-    # link of followme in author card and footer
-    # 作者卡片里 followme 和页脚作者的链接
-    link = "https://github.com/rotosaries"
+# [author]
+#    name = "Rotos"
+#    description = "随遇而安"
+#    # profile photo of author in author card
+#    # 作者头像
+#    image = "/images/author.jpg"
+#    # link of followme in author card and footer
+#    # 作者卡片里 followme 和页脚作者的链接
+#    link = "https://github.com/rotosaries"
 
 # Taxonomies, Currently, only the following 3 taxonomies are supported
 # If you don't want one of them，delete it in [menus] instead here
@@ -41,6 +41,17 @@ hasCJKLanguage = true
     series = "series"
     
 [params]
+
+    [params.author] #因语法{{ .Site.Author.link }}弃用，改到这里了
+    name = "Rotos"
+    description = "随遇而安"
+    # profile photo of author in author card
+    # 作者头像
+    image = "/images/author.jpg"
+    # link of followme in author card and footer
+    # 作者卡片里 followme 和页脚作者的链接
+    link = "https://github.com/rotosaries"
+
     [params.site]
         onlyOneLang = true
         # style of theme: auto, light, dark
