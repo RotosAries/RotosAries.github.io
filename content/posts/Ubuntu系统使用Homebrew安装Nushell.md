@@ -8,8 +8,8 @@ tags:
 categories:
   - 工具
 image: /image/Ubuntu系统使用Homebrew安装Nushell/Ubuntu系统使用Homebrew安装Nushell.jpg
-top: 
-hideFromHomePage: true
+top: false
+hideFromHomePage: false
 share: true
 draft: false
 ---

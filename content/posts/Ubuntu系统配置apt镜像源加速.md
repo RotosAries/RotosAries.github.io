@@ -8,8 +8,8 @@ tags:
 categories:
   - 系统配置
 image: /image/Ubuntu系统配置apt镜像源加速/Ubuntu系统配置apt镜像源加速.jpg
-top: 
-hideFromHomePage: true
+top: false
+hideFromHomePage: false
 share: true
 draft: false
 ---
