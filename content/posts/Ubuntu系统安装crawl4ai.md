@@ -12,7 +12,7 @@ image: /image/Ubuntu系统安装crawl4ai/Ubuntu系统安装crawl4ai.jpg
 top: 
 hideFromHomePage: 
 share: true
-draft: true
+draft: false
 ---
 
 # 安装前提
